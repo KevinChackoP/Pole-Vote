@@ -1,0 +1,12 @@
+[
+  {
+    id: 1,
+    name: "Michel",
+    vote: "Polearms"
+  }, 
+  {
+    id: 2,
+    name: "Zack",
+    vote: "Tetherball Pole"
+  }
+]
