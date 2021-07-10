@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>POLE VOTE</title>
+    <link href="poleVote.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="voting-area">
+    <h1>Ajax Docs</h1>
+
+    <h2>Poll on polls</h2>
+    <ul id="votes" class="blank_list">
+      <li>Name: Michel, Vote: Polearms</li>
+      <li>Name: Zack, Vote: Tetherball Pole</li>
+    </ul>
+
+    <h4>Your vote for your favorite pole (attributed):</h4>
+    <p class="vote-label">Name: </p>
+    <input type="text" id="name" class="vote-input">
+    <p class="vote-label">Poll: </p>
+    <input type="text" id="poll" class="vote-input">
+    <button id="count-vote">Confirm</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="poleVote.js"></script>
+  </body>
+</html>
